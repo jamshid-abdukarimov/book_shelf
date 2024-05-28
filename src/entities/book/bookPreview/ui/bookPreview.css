@@ -1,0 +1,19 @@
+.book_item {
+  min-height: max-content;
+  position: relative;
+}
+
+.book_item-delete_btn {
+  position: absolute !important;
+  top: 20px;
+  right: 5px;
+  color: red !important;
+}
+.book_item-card {
+  height: 100%;
+}
+
+.book_item-card_title {
+  line-height: 1.2 !important;
+  margin-bottom: 20px !important;
+}

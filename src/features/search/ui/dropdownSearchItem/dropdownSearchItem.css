@@ -1,0 +1,38 @@
+.dropdown-search-item {
+  display: flex;
+  margin: 5px;
+}
+
+.dropdown-search-item__content-wrapper {
+  overflow: hidden;
+}
+
+.dropdown-search-item__image {
+  width: 50px;
+  height: 70px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border: 1px solid #b2b2b2;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.dropdown-search-item__title {
+  font-size: 14px;
+  margin-bottom: 2px;
+  color: black;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.dropdown-search-item__subtitle {
+  display: inline-block;
+  margin-bottom: 7px;
+  color: #b2b2b2;
+  font-size: 12px;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
